@@ -1,9 +1,4 @@
-change the text  "Your Tropical Relaxing Beach Haven in Samal"
 
-heres the code
-# andreas-white-house-resort
-Website of the Resort
-```html id="andreas-white-house-resort-final"
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,10 +25,9 @@ body{
 }
 
 header{
-    height:100vh;
     background:
-    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') center/cover no-repeat;
+linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+url('images/pool.jpg') center/cover no-repeat;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -242,6 +236,17 @@ nav a{
 
 <header>
     <div class="hero">
+
+<img src="images/logo.jpg"
+style="
+width:150px;
+height:150px;
+border-radius:50%;
+border:4px solid white;
+margin-bottom:20px;
+object-fit:cover;
+box-shadow:0 5px 15px rgba(0,0,0,0.4);
+">
         <h1>ANDREAS WHITE HOUSE BEACH RESORT</h1>
         <p>Your Tropical Relaxing Beach Haven in Samal </p>
         <a href="#rooms">Explore Rooms</a>
@@ -271,6 +276,34 @@ nav a{
         </p>
     </div>
 </section>
+
+<section id="gallery">
+
+<div class="section-title">
+<h2>Resort Gallery</h2>
+<p>Experience the beauty of Andreas White House Beach Resort</p>
+</div>
+
+<div class="rooms">
+
+<div class="room-card">
+<img src="images/pool.jpg">
+</div>
+
+<div class="room-card">
+<img src="images/pool.jpg">
+</div>
+
+<div class="room-card">
+<img src="images/pool.jpg">
+</div>
+
+</div>
+
+</section>
+
+
+
 
 <section id="rooms">
 
@@ -442,7 +475,7 @@ nav a{
 
 <div class="section-title">
 <h2>Our Location</h2>
-<p>Find us بسهولة</p>
+<p>Find us easily</p>
 </div>
 
 <iframe
@@ -458,13 +491,16 @@ src="https://maps.google.com/maps?q=ANDREAS%20WHITE%20HOUSE%20BEACH%20RESORT&t=&
 <p>We would love to hear from you</p>
 </div>
 
+
 <div class="contact">
 <p>📞 0916-398-4410</p>
 
 <p>
 📘 Facebook:
-<a href="https://facebook.com" target="_blank">
-Andreas White House Beach Resort 2.0
+<a href="https://www.facebook.com/"
+target="_blank"
+class="book-btn">
+Visit Our Facebook Page
 </a>
 </p>
 
