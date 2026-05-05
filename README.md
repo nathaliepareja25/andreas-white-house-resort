@@ -1,3 +1,9 @@
+change the text  "Your Tropical Relaxing Beach Haven in Samal"
+
+heres the code
+# andreas-white-house-resort
+Website of the Resort
+```html id="andreas-white-house-resort-final"
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -237,7 +243,7 @@ nav a{
 <header>
     <div class="hero">
         <h1>ANDREAS WHITE HOUSE BEACH RESORT</h1>
-        <p>Your Tropical Relaxing Beach Haven in Samal 🌴</p>
+        <p>Your Tropical Relaxing Beach Haven in Samal </p>
         <a href="#rooms">Explore Rooms</a>
     </div>
 </header>
@@ -266,7 +272,223 @@ nav a{
     </div>
 </section>
 
-<!-- rest of your code stays the same -->
+<section id="rooms">
+
+<div class="section-title">
+    <h2>Rooms & Accommodation</h2>
+    <p>Comfortable stays for every guest</p>
+</div>
+
+<div class="rooms">
+
+<div class="room-card">
+<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85">
+<div class="room-content">
+<h3>Acree Woods (Standard Room)</h3>
+<div class="price">₱3,000 - ₱4,000</div>
+<ul>
+<li>2-3 Pax</li>
+<li>Bunk Bed Setup</li>
+<li>TV w/ Cable</li>
+<li>T&B</li>
+<li>Breakfast Option Available</li>
+</ul>
+<a class="book-btn" href="#booking">Book Now</a>
+</div>
+</div>
+
+<div class="room-card">
+<img src="https://images.unsplash.com/photo-1566073771259-6a8506099945">
+<div class="room-content">
+<h3>Cabana Suites</h3>
+<div class="price">₱7,000 - ₱7,500</div>
+<ul>
+<li>Upper & Lower Suites</li>
+<li>1 Matrimonial Bed</li>
+<li>1 Sofa Bed</li>
+<li>Bathtub</li>
+<li>Free 1 Hour Gym Use</li>
+</ul>
+<a class="book-btn" href="#booking">Book Now</a>
+</div>
+</div>
+
+<div class="room-card">
+<img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267">
+<div class="room-content">
+<h3>Tree House 1</h3>
+<div class="price">₱5,000</div>
+<ul>
+<li>2 Pax</li>
+<li>Double Bed</li>
+<li>Air-conditioned</li>
+<li>Hot & Cold Shower</li>
+<li>Toiletries Included</li>
+</ul>
+<a class="book-btn" href="#booking">Book Now</a>
+</div>
+</div>
+
+<div class="room-card">
+<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85">
+<div class="room-content">
+<h3>Tree House 2</h3>
+<div class="price">₱6,500</div>
+<ul>
+<li>3-4 Pax</li>
+<li>Double Bed + Single Bed</li>
+<li>Air-conditioned</li>
+<li>TV w/ Cable</li>
+<li>Hot & Cold Shower</li>
+</ul>
+<a class="book-btn" href="#booking">Book Now</a>
+</div>
+</div>
+
+<div class="room-card">
+<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85">
+<div class="room-content">
+<h3>Family Room</h3>
+<div class="price">₱20,500</div>
+<ul>
+<li>16-18 Pax</li>
+<li>2 Shower Rooms</li>
+<li>Hot & Cold Shower</li>
+<li>Personal Refrigerator</li>
+<li>Breakfast Included</li>
+</ul>
+<a class="book-btn" href="#booking">Book Now</a>
+</div>
+</div>
+
+<div class="room-card">
+<img src="https://images.unsplash.com/photo-1522798514-97ceb8c4f1c8">
+<div class="room-content">
+<h3>Barkadahan Room</h3>
+<div class="price">₱12,000</div>
+<ul>
+<li>10-12 Pax</li>
+<li>Air-conditioned</li>
+<li>Carpeted Room</li>
+<li>2 Shower Rooms / Toilet</li>
+<li>TV w/ Cable</li>
+</ul>
+<a class="book-btn" href="#booking">Book Now</a>
+</div>
+</div>
+
+<div class="room-card">
+<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85">
+<div class="room-content">
+<h3>Atelier Room</h3>
+<div class="price">₱10,000</div>
+<ul>
+<li>Good for 6 Pax</li>
+<li>TV w/ Cable</li>
+<li>Personal Refrigerator</li>
+<li>Toiletries Included</li>
+<li>Breakfast Included</li>
+</ul>
+<a class="book-btn" href="#booking">Book Now</a>
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="booking">
+
+<div class="section-title">
+<h2>Book Your Stay</h2>
+<p>Reserve your perfect vacation today</p>
+</div>
+
+<div class="booking">
+
+<form onsubmit="sendBooking(event)">
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="email" placeholder="Email Address" required>
+
+<input type="tel" placeholder="Contact Number" required>
+
+<input type="date" required>
+
+<select required>
+<option value="">Select Room</option>
+<option>Acree Woods</option>
+<option>Cabana Suites</option>
+<option>Tree House 1</option>
+<option>Tree House 2</option>
+<option>Family Room</option>
+<option>Barkadahan Room</option>
+<option>Atelier Room</option>
+</select>
+
+<textarea rows="5" placeholder="Special Requests"></textarea>
+
+<button type="submit">Submit Booking Request</button>
+
+</form>
+
+<p id="booking-message" style="margin-top:20px;font-weight:600;"></p>
+
+</div>
+
+</section>
+
+<section id="location">
+
+<div class="section-title">
+<h2>Our Location</h2>
+<p>Find us بسهولة</p>
+</div>
+
+<iframe
+src="https://maps.google.com/maps?q=ANDREAS%20WHITE%20HOUSE%20BEACH%20RESORT&t=&z=15&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+</section>
+
+<section id="contact">
+
+<div class="section-title">
+<h2>Contact Us</h2>
+<p>We would love to hear from you</p>
+</div>
+
+<div class="contact">
+<p>📞 0916-398-4410</p>
+
+<p>
+📘 Facebook:
+<a href="https://facebook.com" target="_blank">
+Andreas White House Beach Resort 2.0
+</a>
+</p>
+
+<p>🌴 Thank you for choosing Andreas White House Beach Resort!</p>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 ANDREAS WHITE HOUSE BEACH RESORT | All Rights Reserved</p>
+</footer>
+
+<script>
+
+function sendBooking(event){
+    event.preventDefault();
+
+    document.getElementById("booking-message").innerHTML =
+    "✅ Your booking request has been submitted successfully! We will contact you shortly.";
+}
+
+</script>
 
 </body>
 </html>
+```
